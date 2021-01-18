@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import MenuButton from "./MenuButton";
 import MobileDropdown from "./MobileDropdown";
 import useOnClickOutside from "../hooks/useOnClickOutside";
-import Link from "next/Link";
+import Link from "next/link";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
